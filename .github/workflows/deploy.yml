@@ -42,5 +42,5 @@ jobs:
                 PACMAN_BIGQUERY_DATASET_ID=pacman,
                 PACMAN_LOG_FORMAT=json
             " \
-            --set-secrets "PACMAN_OTX_API_KEY=PACMAN_OTX_API_KEY:lates" \
+            --set-secrets "PACMAN_OTX_API_KEY=PACMAN_OTX_API_KEY:latest" \
             --service-account=pacman@mztn-dep.iam.gserviceaccount.com
