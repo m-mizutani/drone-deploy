@@ -34,7 +34,7 @@ jobs:
           tags: asia-northeast1-docker.pkg.dev/mztn-dep/service-images/pacman:${{ github.sha }}
       - name: Deploy to Cloud Run Job
         run: |
-          gcloud beta run jobs create pacman \
+          gcloud beta run jobs deploy pacman \
             --image=asia-northeast1-docker.pkg.dev/mztn-dep/service-images/pacman:${{ github.sha }} \
             --region=asia-northeast1 \
             --set-env-vars "
