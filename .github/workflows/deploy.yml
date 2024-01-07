@@ -42,4 +42,4 @@ jobs:
                 DRONE_BIGQUERY_DATASET_ID=drone,
                 DRONE_LOG_FORMAT=json" \
             --set-secrets "DRONE_OTX_API_KEY=DRONE_OTX_API_KEY:latest" \
-            --service-account=drone@mztn-dep.iam.gserviceaccount.com
+            --service-account=drone-runner@mztn-dep.iam.gserviceaccount.com
