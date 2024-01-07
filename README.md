@@ -1,2 +1,2 @@
-# pacman-deploy
-Deployment management repository for pacman
+# drone-deploy
+Deployment management repository for drone
