@@ -1,4 +1,4 @@
-FROM ghcr.io/m-mizutani/drone:d70dadb17424391fcea3ceba3c3848742fc852bd
+FROM ghcr.io/m-mizutani/drone:v0.0.2
 
 WORKDIR /
 ENTRYPOINT ["/drone"]
